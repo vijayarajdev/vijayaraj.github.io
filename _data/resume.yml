@@ -1,0 +1,149 @@
+# ─────────────────────────────────────────────
+#  RESUME DATA  –  edit this file to update your site
+# ─────────────────────────────────────────────
+
+# ── Header ──────────────────────────────────
+name: Vijayaraj Radjavelou
+role: "Cloud & Platform Engineer (SRE/DevOps) · Transitioning into AI/ML Engineering"
+open_to: "Open to AI/ML Engineering roles"
+location: "Stockholm, Sweden"
+phone: "+46 767 041 935"
+email: "vijayaraj.radjavelou@seb.se"
+github_url: "https://github.com/vijayarajdev"
+github_label: "github.com/vijayarajdev"
+
+# ── Summary ─────────────────────────────────
+summary: >
+  Cloud & Platform Engineer (SRE/DevOps) with <strong>15 years of experience</strong> bridging software development,
+  DevOps, and reliability engineering. I build <strong>production-grade platforms</strong> and enablement capabilities
+  across cloud, Kubernetes, and enterprise data environments. Expert <strong>Python developer</strong> with strong
+  experience in Infrastructure as Code (Terraform), CI/CD, and observability (OpenTelemetry, Splunk, Dynatrace).
+  Currently focused on <strong>productionizing AI solutions</strong> with robust reliability, monitoring, and governance.
+
+# ── Skills ──────────────────────────────────
+# color options: blue | green | purple | red | yellow | gray
+skills:
+  - category: "Observability & AIOps"
+    color: blue
+    items:
+      - OpenTelemetry
+      - Dynatrace
+      - Splunk
+      - ITSI
+      - APM
+      - Prometheus
+      - Grafana
+
+  - category: "Cloud & Data Platforms"
+    color: green
+    items:
+      - Azure
+      - GCP
+      - Kubernetes
+      - GKE
+      - OpenShift
+      - Linux
+
+  - category: "Automation & SDLC"
+    color: purple
+    items:
+      - Python
+      - Terraform
+      - CI/CD
+      - Azure DevOps
+      - Git
+      - Shell
+      - Perl
+
+  - category: "Reliability Practices"
+    color: red
+    items:
+      - SLI/SLO
+      - Incident Mgmt
+      - Root-Cause Analysis
+      - Auto Remediation
+
+  - category: "Generative AI / LLM"
+    color: yellow
+    items:
+      - RAG
+      - LangChain
+      - Gemini
+      - ChromaDB
+      - Prompt Engineering
+
+  - category: "Certifications"
+    color: green
+    items:
+      - Splunk Enterprise Certified Admin
+
+# ── Projects ────────────────────────────────
+projects:
+  - title: "Ask HR – Retrieval Augmented Generation (RAG) Assistant"
+    link: "https://github.com/vijayarajdev/ask-hr-api-rag"
+    link_label: "View on GitHub"
+    bullets:
+      - "Built a question-answering assistant over HR knowledge documents using LangChain, Gemini, and ChromaDB."
+      - "Implemented ingestion and chunking strategy with embedding-based retrieval to provide grounded answers with source context."
+      - "Addressed production-minded concerns such as latency, failure handling, and response consistency."
+    tags:
+      - { label: LangChain, color: yellow }
+      - { label: Gemini, color: yellow }
+      - { label: ChromaDB, color: yellow }
+      - { label: RAG, color: yellow }
+      - { label: Python, color: purple }
+      - { label: "REST API", color: green }
+
+# ── Experience ───────────────────────────────
+experience:
+  - title: "Senior Observability & DevOps Engineer"
+    company: "SEB, Stockholm"
+    date: "03/2023 – Present"
+    bullets:
+      - "Delivered an OpenTelemetry PoC across OpenShift and GKE (operator/sidecar approach) to standardize telemetry patterns and guide adoption within product teams."
+      - "Helped the Blackbird team switch to OTel and integrate GCP Cloud Observability for unified monitoring and troubleshooting."
+      - "Engineered Azure Terraform automation to deploy and manage Azure Bot services for alert notification from Aiwa to Microsoft Teams."
+
+  - title: "Senior System Engineer (Monitoring & SRE)"
+    company: "IKEA, Stockholm"
+    date: "08/2022 – 03/2023"
+    bullets:
+      - "Architected a cost-effective storage strategy for a 15TB observability platform; transitioned from an expensive all-SSD setup to a tiered architecture, reducing infrastructure costs by nearly <strong>40%</strong> without impacting query performance."
+      - "Modernized network telemetry by deploying a containerized SC4S solution via Terraform, enabling ingestion of massive volumes of previously dark network data."
+      - "Partnered with engineering teams to transition from basic uptime monitoring to a customer-focused SRE framework; led workshops to define SLIs and SLOs prioritizing end-user experience."
+
+  - title: "Senior Observability Enablement Engineer"
+    company: "H&M Group, Stockholm"
+    date: "11/2016 – 06/2022"
+    bullets:
+      - "Managed a unified "O11y-as-a-Product" suite (Dynatrace, Splunk, Prometheus) and guided dev teams to embed distributed tracing into the SDLC."
+      - "Leveraged AIOps within Splunk ITSI by implementing machine-learning-driven adaptive thresholding for critical KPIs, dynamically adjusting baselines and reducing operational noise."
+      - "Built interactive Splunk ITSI Glass Table dashboards mapping end-to-end global checkout workflow, connecting IT signals to business impact."
+      - "Orchestrated the migration of thousands of users from on-premises Splunk to Splunk Cloud, designing a custom app-vetting workflow."
+      - "Customized enterprise ITOM add-ons using Python to fully automate the integration of Splunk alerts into the ServiceNow event system."
+
+  - title: "Python Developer & Test Automation Engineer"
+    company: "TCS (Nokia Client), Finland"
+    date: "10/2013 – 11/2016"
+    bullets:
+      - "Built Python-based data scrapers and API integrations to consolidate third-party data into PostgreSQL, handling complex REST/SOAP parsing at scale."
+      - "Developed a Selenium WebDriver framework for regression testing, ensuring software reliability was validated in CI/CD pipelines before reaching production."
+
+  - title: "Automation Engineer"
+    company: "TCS (Motorola Client), India"
+    date: "11/2009 – 10/2013"
+    bullets:
+      - "Simplified operations and managed high-volume data processing for legacy infrastructure using Shell and Perl scripting."
+      - "Authored technical recovery documentation that became the operational standard for the global TechOps support team."
+
+# ── Education ────────────────────────────────
+education:
+  degree: "Bachelor of Science in Computer Science and Engineering"
+  school: "Pondicherry University, India"
+
+# ── Languages ────────────────────────────────
+languages:
+  - name: English
+    level: Fluent
+  - name: Swedish
+    level: "Beginner – Currently learning"
