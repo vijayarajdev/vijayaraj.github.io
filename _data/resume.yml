@@ -116,7 +116,7 @@ experience:
     company: "H&M Group, Stockholm"
     date: "11/2016 – 06/2022"
     bullets:
-      - "Managed a unified "O11y-as-a-Product" suite (Dynatrace, Splunk, Prometheus) and guided dev teams to embed distributed tracing into the SDLC."
+      - 'Managed a unified "O11y-as-a-Product" suite (Dynatrace, Splunk, Prometheus) and guided dev teams to embed distributed tracing into the SDLC.'
       - "Leveraged AIOps within Splunk ITSI by implementing machine-learning-driven adaptive thresholding for critical KPIs, dynamically adjusting baselines and reducing operational noise."
       - "Built interactive Splunk ITSI Glass Table dashboards mapping end-to-end global checkout workflow, connecting IT signals to business impact."
       - "Orchestrated the migration of thousands of users from on-premises Splunk to Splunk Cloud, designing a custom app-vetting workflow."
